@@ -63,6 +63,16 @@ uv pip install -p .venv/bin/python -r requirements.txt
 
 ## Results
 
+<!-- charts:start -->
+### Charts
+
+Drawn from the JSON in `results/` by `scripts/make_charts.py`; the tables below hold the exact numbers.
+
+![FP32 vs FP16 vs INT8: mAP, latency, size](docs/variants.png)
+
+![Two-stage cascade latency per image](docs/cascade.png)
+<!-- charts:end -->
+
 <!-- results:start -->
 **person.pt** (40 held-out images)
 
