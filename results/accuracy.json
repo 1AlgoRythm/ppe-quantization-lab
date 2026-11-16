@@ -1,0 +1,82 @@
+{
+ "person_fp32": {
+  "model": "person",
+  "variant": "fp32",
+  "map50": 0.9648961224178146,
+  "map50_95": 0.8209493959060694,
+  "precision": 0.9829766346506708,
+  "recall": 0.9239016719486434,
+  "n_images": 40,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "person_fp16": {
+  "model": "person",
+  "variant": "fp16",
+  "map50": 0.9651172503353049,
+  "map50_95": 0.8215293566136941,
+  "precision": 0.9829737737936856,
+  "recall": 0.92374368398249,
+  "n_images": 40,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "person_int8": {
+  "model": "person",
+  "variant": "int8",
+  "map50": 0.9621347369000028,
+  "map50_95": 0.8084834041801411,
+  "precision": 0.966314256894139,
+  "recall": 0.9179695906149997,
+  "n_images": 40,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "person_int8_naive": {
+  "model": "person",
+  "variant": "int8_naive",
+  "map50": 0.0,
+  "map50_95": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "n_images": 40,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "ppe_fp32": {
+  "model": "ppe",
+  "variant": "fp32",
+  "map50": 0.8403667908496439,
+  "map50_95": 0.6479473199765157,
+  "precision": 0.9002473505199798,
+  "recall": 0.7305536918585855,
+  "n_images": 123,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "ppe_fp16": {
+  "model": "ppe",
+  "variant": "fp16",
+  "map50": 0.8404567366962444,
+  "map50_95": 0.6481454297996853,
+  "precision": 0.9003345393748511,
+  "recall": 0.7309422706535702,
+  "n_images": 123,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "ppe_int8": {
+  "model": "ppe",
+  "variant": "int8",
+  "map50": 0.8209502732626323,
+  "map50_95": 0.6191764084082066,
+  "precision": 0.834560952772698,
+  "recall": 0.7204252037242498,
+  "n_images": 123,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ },
+ "ppe_int8_naive": {
+  "model": "ppe",
+  "variant": "int8_naive",
+  "map50": 0.0,
+  "map50_95": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "n_images": 123,
+  "evaluator": "ultralytics val on .onnx (ORT CPU EP), conf=0.001, iou=0.7"
+ }
+}

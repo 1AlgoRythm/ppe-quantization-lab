@@ -1,0 +1,12 @@
+ultralytics
+torch
+onnx
+onnxruntime
+onnxslim
+opencv-python
+numpy
+pandas
+matplotlib
+psutil
+streamlit
+pytest
